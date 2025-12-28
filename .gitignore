@@ -1,0 +1,52 @@
+# ======================
+# KiCad
+# ======================
+
+# User-specific / cache
+*.kicad_prl
+*.kicad_pro.user
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_sch.lck
+*.kicad_pcb.lck
+*.kicad_sch.tmp
+*.kicad_pcb.tmp
+*.bak
+*.tmp
+*.dcm
+.fp-info-cache
+
+# Auto-generated files
+*-cache.lib
+*-rescue.lib
+*-rescue.kicad_sym
+*-rescue.kicad_sch
+
+# Simulation
+*.raw
+*.cir
+*.log
+
+# Netlists / exports
+*.net
+*.xml
+
+# Gerbers / fabrication output
+gerbers/
+fabrication/
+*.gbr
+*.drl
+*.pos
+*.gbrjob
+*.step
+*.stp
+
+# BOM / pick&place
+*.csv
+*.xlsx
+
+# Backup folders
+backup/
+_autosave-*
+/hardware/NosVolt-backups/
+/hardware/fp-info-cache
