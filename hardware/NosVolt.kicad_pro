@@ -639,6 +639,10 @@
     [
       "32fe5c1b-d6e5-49ce-a57a-909ff60d86f6",
       "MP2307"
+    ],
+    [
+      "a3c788b2-be52-41e3-a33a-7de63687b368",
+      "USB_LDO"
     ]
   ],
   "text_variables": {}
