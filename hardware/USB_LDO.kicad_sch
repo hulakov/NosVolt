@@ -1975,6 +1975,12 @@
 		(uuid "53434ca1-535a-4cac-a017-f5a64f284e7c")
 	)
 	(junction
+		(at 125.73 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ec30c72-c73d-432e-9e5e-79275f59d194")
+	)
+	(junction
 		(at 106.68 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2003,12 +2009,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0c3dec8-5632-4357-8aba-ae45740677f2")
-	)
-	(junction
-		(at 125.73 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3a5b24f-dbe4-4710-856a-6c77a176691e")
 	)
 	(junction
 		(at 120.65 86.36)
@@ -2058,17 +2058,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 78.74) (xy 139.7 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15dcc27f-23ba-4a2d-94a5-c258d914e7b5")
-	)
-	(wire
-		(pts
-			(xy 109.22 97.79) (xy 134.62 97.79)
+			(xy 109.22 101.6) (xy 134.62 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2098,7 +2088,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 100.33) (xy 106.68 99.06)
+			(xy 106.68 104.14) (xy 106.68 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2158,6 +2148,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 78.74) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a9935f-1779-4388-90ce-db5a62771f9a")
+	)
+	(wire
+		(pts
 			(xy 106.68 96.52) (xy 106.68 99.06)
 		)
 		(stroke
@@ -2198,16 +2198,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 78.74) (xy 125.73 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cc8a587-e98f-4b91-b683-b241f93e6d0e")
-	)
-	(wire
-		(pts
 			(xy 106.68 91.44) (xy 106.68 93.98)
 		)
 		(stroke
@@ -2235,6 +2225,16 @@
 			(type default)
 		)
 		(uuid "5629f3d5-769f-4ccd-bbd8-cf82e205dcb2")
+	)
+	(wire
+		(pts
+			(xy 123.19 78.74) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d3dfd3-c7e8-43ca-afd9-01d53336158d")
 	)
 	(wire
 		(pts
@@ -2288,7 +2288,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 109.22 97.79)
+			(xy 139.7 78.74) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7888fea1-757e-4141-9823-99faeb6ee2df")
+	)
+	(wire
+		(pts
+			(xy 109.22 93.98) (xy 109.22 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2338,6 +2348,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 78.74) (xy 115.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6a5b94-4f7a-4127-acb7-652971fa9c57")
+	)
+	(wire
+		(pts
 			(xy 90.17 116.84) (xy 90.17 124.46)
 		)
 		(stroke
@@ -2345,6 +2365,16 @@
 			(type default)
 		)
 		(uuid "a4f8cf07-ce58-43cd-8634-4626e1ea846a")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 144.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2bd273-f8b3-4cb9-aaff-15e62d2cb272")
 	)
 	(wire
 		(pts
@@ -2408,16 +2438,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 78.74) (xy 139.7 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccd72bd1-4287-43b2-b1e6-60d846d15ac1")
-	)
-	(wire
-		(pts
 			(xy 115.57 151.13) (xy 115.57 154.94)
 		)
 		(stroke
@@ -2428,13 +2448,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 100.33) (xy 106.68 100.33)
+			(xy 134.62 104.14) (xy 106.68 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d2c61935-2413-4bd4-b069-eca771297992")
+	)
+	(wire
+		(pts
+			(xy 153.67 104.14) (xy 144.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d374fe06-ef88-486c-ac2c-d50f5ab88a66")
 	)
 	(wire
 		(pts
@@ -2488,16 +2518,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 78.74) (xy 107.95 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fab24ac7-1dac-45e7-a53b-1a49b0a20095")
-	)
-	(wire
-		(pts
 			(xy 106.68 91.44) (xy 105.41 91.44)
 		)
 		(stroke
@@ -2505,6 +2525,56 @@
 			(type default)
 		)
 		(uuid "fdaf7557-ad01-4497-8b9d-b8642e945afc")
+	)
+	(label "USB_D-"
+		(at 146.05 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20bc242a-b2b6-4004-a7ca-41110d40a7cc")
+	)
+	(label "RAW_5V"
+		(at 105.41 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70604d55-658b-434b-a5f2-4e2e1e8703ed")
+	)
+	(label "RAW_USB_D-"
+		(at 113.03 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c910c7d7-c456-46ac-92b6-aeddd31ce46c")
+	)
+	(label "RAW_USB_D+"
+		(at 113.03 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6ca67b1-f5d0-425d-90e8-4c6d4daabd6f")
+	)
+	(label "USB_D+"
+		(at 146.05 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f06d8c95-c25c-4e22-a9f9-92a6cf2563d6")
 	)
 	(hierarchical_label "5V"
 		(shape output)
@@ -2519,7 +2589,7 @@
 	)
 	(hierarchical_label "DP"
 		(shape bidirectional)
-		(at 144.78 100.33 0)
+		(at 153.67 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2530,7 +2600,7 @@
 	)
 	(hierarchical_label "DM"
 		(shape bidirectional)
-		(at 144.78 97.79 0)
+		(at 153.67 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2820,8 +2890,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 139.7 97.79 0)
-		(mirror y)
+		(at 139.7 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2829,7 +2898,7 @@
 		(dnp no)
 		(uuid "3b1af4f6-a0d4-44d1-a54e-8f1c90a7fe59")
 		(property "Reference" "U402"
-			(at 142.8181 107.95 0)
+			(at 136.5819 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +2907,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 142.748 105.156 0)
+			(at 136.652 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +2916,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 138.43 104.14 0)
+			(at 140.97 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,7 +2927,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 138.43 106.045 0)
+			(at 140.97 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +2937,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 139.7 97.79 0)
+			(at 139.7 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,7 +3110,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 105.41 0)
+		(at 139.7 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3050,7 +3119,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c012280-1f30-4ea3-b8ba-bab4d40d9a69")
 		(property "Reference" "#PWR0405"
-			(at 139.7 111.76 0)
+			(at 139.7 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +3128,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 110.49 0)
+			(at 139.7 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 105.41 0)
+			(at 139.7 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,7 +3145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 105.41 0)
+			(at 139.7 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3154,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 105.41 0)
+			(at 139.7 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3449,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 111.76 78.74 90)
+		(at 119.38 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3388,7 +3457,7 @@
 		(dnp no)
 		(uuid "9e04a895-1a79-415a-ba7f-f27c40822af4")
 		(property "Reference" "F401"
-			(at 112.014 72.136 90)
+			(at 119.634 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3465,7 @@
 			)
 		)
 		(property "Value" "Polyfuse 0.75A"
-			(at 111.76 74.93 90)
+			(at 119.38 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3473,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
-			(at 116.84 77.47 0)
+			(at 124.46 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +3483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 78.74 0)
+			(at 119.38 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,7 +3492,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 111.76 78.74 0)
+			(at 119.38 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
