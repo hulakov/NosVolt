@@ -430,6 +430,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.54 5.08)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.54 2.54) (xy 0.762 2.54)
@@ -448,17 +459,6 @@
 					)
 					(stroke
 						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -490,7 +490,7 @@
 					)
 				)
 				(circle
-					(center 2.54 -2.54)
+					(center 2.54 -5.08)
 					(radius 0.3592)
 					(stroke
 						(width 0)
@@ -605,6 +605,44 @@
 					)
 				)
 				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "D"
@@ -672,44 +710,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2574,16 +2574,6 @@
 				(justify left top)
 			)
 		)
-		(pin "VIN+" input
-			(at 146.05 100.33 180)
-			(uuid "9f256a9a-374a-4c3c-8ef4-e27f8a6cb84b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "A1" input
 			(at 146.05 107.95 180)
 			(uuid "2f7fa867-ec5f-43f3-b59f-7ea39b9990ed")
@@ -2594,16 +2584,6 @@
 				(justify left)
 			)
 		)
-		(pin "VIN-" input
-			(at 166.37 102.87 0)
-			(uuid "cfe3a840-2456-4b06-9542-bf87f35489b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "A0" input
 			(at 146.05 105.41 180)
 			(uuid "6e606037-4341-49c0-854b-eb23e668c6be")
@@ -2612,6 +2592,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 146.05 100.33 180)
+			(uuid "e101b36f-89a4-4d67-902e-bdc4cf5c1af1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" input
+			(at 166.37 102.87 0)
+			(uuid "acc951ed-b4af-4dbd-91e9-b22baaaa8447")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

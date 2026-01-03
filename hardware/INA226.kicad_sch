@@ -1105,7 +1105,7 @@
 			)
 		)
 	)
-	(hierarchical_label "VIN+"
+	(hierarchical_label "VIN"
 		(shape input)
 		(at 91.44 96.52 180)
 		(effects
@@ -1138,7 +1138,7 @@
 		)
 		(uuid "902f48fe-c646-4715-9743-e74f5927aaac")
 	)
-	(hierarchical_label "VIN-"
+	(hierarchical_label "VOUT"
 		(shape input)
 		(at 91.44 109.22 180)
 		(effects

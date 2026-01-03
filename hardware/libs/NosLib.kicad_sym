@@ -164,6 +164,17 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 2.54 5.08)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 2.54 2.54) (xy 0.762 2.54)
@@ -182,17 +193,6 @@
 				)
 				(stroke
 					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.54 2.54)
-				(radius 0.3592)
-				(stroke
-					(width 0)
 					(type default)
 				)
 				(fill
@@ -224,7 +224,7 @@
 				)
 			)
 			(circle
-				(center 2.54 -2.54)
+				(center 2.54 -5.08)
 				(radius 0.3592)
 				(stroke
 					(width 0)
@@ -339,6 +339,44 @@
 				)
 			)
 			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 2.54 -5.08 90)
 				(length 2.54)
 				(name "D"
@@ -406,44 +444,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 5.08 270)
-				(length 2.54)
-				(hide yes)
-				(name "S"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 5.08 270)
-				(length 2.54)
-				(hide yes)
-				(name "S"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)

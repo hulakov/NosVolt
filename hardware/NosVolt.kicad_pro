@@ -191,7 +191,9 @@
         0.15,
         0.2,
         0.4,
-        0.6
+        0.6,
+        1.5,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -504,11 +506,21 @@
         "line_style": 0,
         "name": "PWR",
         "pcb_color": "rgb(255, 12, 14)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(255, 6, 4)",
         "track_width": 0.5,
         "via_diameter": 0.7,
         "via_drill": 0.3
+      },
+      {
+        "clearance": 0.25,
+        "name": "Shunt",
+        "pcb_color": "rgb(255, 160, 16)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 3.0,
+        "via_diameter": 1.2,
+        "via_drill": 0.6
       },
       {
         "clearance": 0.2,
@@ -517,7 +529,7 @@
         "line_style": 0,
         "name": "USB Data",
         "pcb_color": "rgb(19, 255, 63)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 10, 255)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -541,6 +553,14 @@
       {
         "netclass": "PWR",
         "pattern": "*3V3*"
+      },
+      {
+        "netclass": "Shunt",
+        "pattern": "/INA226_BAT/VOUT"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+3.3V"
       }
     ]
   },
