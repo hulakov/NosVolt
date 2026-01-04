@@ -3870,7 +3870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "016327d5-b3a1-424a-ab17-2f658709abd8")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0120"
 			(at 137.16 186.69 0)
 			(effects
 				(font
@@ -3920,7 +3920,7 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444"
-					(reference "#PWR0121")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -5508,7 +5508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa2d79c0-e3ef-4e19-a765-f2160e29aeca")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0119"
 			(at 137.16 160.02 0)
 			(effects
 				(font
@@ -5558,7 +5558,7 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444"
-					(reference "#PWR0120")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -5574,7 +5574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b24c5d53-be34-43ec-8ee3-e39f1634e415")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0121"
 			(at 147.32 71.12 0)
 			(effects
 				(font
@@ -5625,7 +5625,7 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444"
-					(reference "#PWR0124")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -5778,7 +5778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c64c6009-58a9-4fbd-81eb-b5f0470d8eb6")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0118"
 			(at 137.16 134.62 0)
 			(effects
 				(font
@@ -5828,7 +5828,7 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444"
-					(reference "#PWR0119")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
