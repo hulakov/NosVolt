@@ -787,10 +787,6 @@
 		(color 0 0 0 0)
 		(uuid "a273d3b6-f335-4424-b224-0ce585365044")
 	)
-	(no_connect
-		(at 156.21 101.6)
-		(uuid "297a47e6-4b7c-407b-b220-f02d03fe60e3")
-	)
 	(wire
 		(pts
 			(xy 91.44 96.52) (xy 99.06 96.52)
@@ -1126,6 +1122,17 @@
 			(justify left)
 		)
 		(uuid "2e6987d7-9e28-4249-aaa5-cbf404dea8ed")
+	)
+	(hierarchical_label "ALERT"
+		(shape input)
+		(at 156.21 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7830539e-5609-44c1-a0de-93162d4d9917")
 	)
 	(hierarchical_label "A1"
 		(shape input)

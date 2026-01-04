@@ -1384,6 +1384,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 106.68) (xy 177.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c2bab4-5157-48cf-80e0-ea059d18ea14")
+	)
+	(wire
+		(pts
 			(xy 95.25 74.93) (xy 106.68 74.93)
 		)
 		(stroke
@@ -1504,6 +1514,17 @@
 			(justify right)
 		)
 		(uuid "530b97b7-896d-4f98-91d6-8b5435dbc6e5")
+	)
+	(hierarchical_label "ALERT"
+		(shape output)
+		(at 177.8 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1a0f178-86cb-491b-9cce-02effcb0e58f")
 	)
 	(hierarchical_label "INA226_A0"
 		(shape input)
@@ -2607,6 +2628,16 @@
 		(pin "VOUT" input
 			(at 166.37 102.87 0)
 			(uuid "acc951ed-b4af-4dbd-91e9-b22baaaa8447")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ALERT" input
+			(at 166.37 106.68 0)
+			(uuid "a4eece06-786b-4cab-9318-b966db29fe0f")
 			(effects
 				(font
 					(size 1.27 1.27)

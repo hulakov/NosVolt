@@ -3,4 +3,5 @@
   (lib (name "libs")(type "KiCad")(uri "${KIPRJMOD}/libs.pretty")(options "")(descr ""))
   (lib (name "AO4407A")(type "KiCad")(uri "${KIPRJMOD}/libs/AO4407A.pretty")(options "")(descr ""))
   (lib (name "SSSS811101")(type "KiCad")(uri "${KIPRJMOD}/libs/SSSS811101.pretty")(options "")(descr ""))
+  (lib (name "NosLib")(type "KiCad")(uri "${KIPRJMOD}/libs/NosLib.pretty")(options "")(descr ""))
 )
