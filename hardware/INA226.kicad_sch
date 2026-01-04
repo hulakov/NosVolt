@@ -1124,7 +1124,7 @@
 		(uuid "2e6987d7-9e28-4249-aaa5-cbf404dea8ed")
 	)
 	(hierarchical_label "ALERT"
-		(shape input)
+		(shape output)
 		(at 156.21 101.6 0)
 		(effects
 			(font
