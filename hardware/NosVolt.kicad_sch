@@ -2483,7 +2483,7 @@
 		(uuid "0e067c6f-38ec-4596-bc93-fddee291a733")
 	)
 	(no_connect
-		(at 62.23 74.93)
+		(at 62.23 95.25)
 		(uuid "2c394fda-e16f-418e-b1a4-3d6a2f3d4ce1")
 	)
 	(no_connect
@@ -2904,26 +2904,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 97.79) (xy 43.18 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69db763e-3598-4234-b747-dcb6f543f70d")
-	)
-	(wire
-		(pts
-			(xy 55.88 77.47) (xy 77.47 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b1f6f65-74c2-4bc0-9090-ff47dec48de3")
-	)
-	(wire
-		(pts
 			(xy 140.97 71.12) (xy 137.16 71.12)
 		)
 		(stroke
@@ -2964,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 82.55) (xy 62.23 82.55)
+			(xy 55.88 102.87) (xy 62.23 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3061,6 +3041,16 @@
 			(type default)
 		)
 		(uuid "8da6a04a-3446-4c3f-af87-7797874fa86b")
+	)
+	(wire
+		(pts
+			(xy 38.1 77.47) (xy 43.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8111ea-60a3-4f5a-8589-684c46bbe731")
 	)
 	(wire
 		(pts
@@ -3194,7 +3184,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 74.93) (xy 62.23 74.93)
+			(xy 55.88 95.25) (xy 62.23 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3264,7 +3254,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 80.01) (xy 62.23 80.01)
+			(xy 55.88 100.33) (xy 62.23 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3321,6 +3311,16 @@
 			(type default)
 		)
 		(uuid "d0ef8488-b546-4af6-ae3d-7c29eee8540a")
+	)
+	(wire
+		(pts
+			(xy 55.88 77.47) (xy 77.47 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b96550-41f9-4cae-a582-f23995642b0f")
 	)
 	(wire
 		(pts
@@ -3532,7 +3532,7 @@
 	)
 	(global_label "USB_D+"
 		(shape input)
-		(at 62.23 80.01 0)
+		(at 62.23 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3542,7 +3542,7 @@
 		)
 		(uuid "3f70cf7d-2dbe-4f70-affd-a4c04bdcd14e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.8352 80.01 0)
+			(at 72.8352 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,7 +3752,7 @@
 	)
 	(global_label "USB_D-"
 		(shape input)
-		(at 62.23 82.55 0)
+		(at 62.23 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3762,7 +3762,7 @@
 		)
 		(uuid "98f164cc-8a61-4ed8-866a-c17cbc756e96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.8352 82.55 0)
+			(at 72.8352 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +4949,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 38.1 97.79 90)
+		(at 38.1 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4957,7 +4957,7 @@
 		(dnp no)
 		(uuid "4de898ac-8325-46a4-b34e-fee906a5d66c")
 		(property "Reference" "#PWR0101"
-			(at 41.91 97.79 0)
+			(at 41.91 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +4966,7 @@
 			)
 		)
 		(property "Value" "+12V_UPS"
-			(at 40.894 100.076 90)
+			(at 40.894 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +4975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 97.79 0)
+			(at 38.1 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +4984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 97.79 0)
+			(at 38.1 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +4993,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 38.1 97.79 0)
+			(at 38.1 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,7 +6234,7 @@
 		)
 	)
 	(sheet
-		(at 43.18 92.71)
+		(at 43.18 72.39)
 		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6247,9 +6247,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "32fe5c1b-d6e5-49ce-a57a-909ff60d86f6")
+		(uuid "2921d5aa-c688-44ae-9514-bff013d02d6a")
 		(property "Sheetname" "MP2307"
-			(at 42.926 89.408 0)
+			(at 42.926 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,7 +6258,7 @@
 			)
 		)
 		(property "Sheetfile" "MP2307.kicad_sch"
-			(at 43.18 90.424 0)
+			(at 43.18 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,8 +6267,8 @@
 			)
 		)
 		(pin "IN" input
-			(at 43.18 97.79 180)
-			(uuid "05fb0e14-ae6d-48b0-9f3d-a21ee2c8735e")
+			(at 43.18 77.47 180)
+			(uuid "2cb238b4-5168-4ee8-8090-4273458ff13a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,8 +6277,8 @@
 			)
 		)
 		(pin "OUT" output
-			(at 55.88 97.79 0)
-			(uuid "13b2e54f-4d50-4b10-900a-7005d13a447e")
+			(at 55.88 77.47 0)
+			(uuid "28c09b23-ffd0-4421-b545-81be61b5014a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,7 +6588,7 @@
 		)
 	)
 	(sheet
-		(at 43.18 72.39)
+		(at 43.18 92.71)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6603,7 +6603,7 @@
 		)
 		(uuid "a3c788b2-be52-41e3-a33a-7de63687b368")
 		(property "Sheetname" "USB_LDO"
-			(at 43.18 68.326 0)
+			(at 43.18 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +6612,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_LDO.kicad_sch"
-			(at 42.672 69.85 0)
+			(at 42.672 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +6621,7 @@
 			)
 		)
 		(pin "DP" bidirectional
-			(at 55.88 80.01 0)
+			(at 55.88 100.33 0)
 			(uuid "16dadb33-187f-473b-8627-647224e80463")
 			(effects
 				(font
@@ -6631,7 +6631,7 @@
 			)
 		)
 		(pin "DM" bidirectional
-			(at 55.88 82.55 0)
+			(at 55.88 102.87 0)
 			(uuid "2d433cb3-66aa-413d-b4ad-54a8a0687cde")
 			(effects
 				(font
@@ -6641,7 +6641,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 55.88 77.47 0)
+			(at 55.88 97.79 0)
 			(uuid "cda13aa8-86b9-4da3-b18f-0954a4cf619c")
 			(effects
 				(font
@@ -6651,7 +6651,7 @@
 			)
 		)
 		(pin "5V" output
-			(at 55.88 74.93 0)
+			(at 55.88 95.25 0)
 			(uuid "2d794351-b66a-4c5b-b29f-450b8c0b35aa")
 			(effects
 				(font

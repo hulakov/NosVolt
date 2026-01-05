@@ -3352,7 +3352,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "56d97f29-8617-4c66-afb3-5ea1b30a6443")
+			(uuid "56d97f29-8617-4c66-afb3-5ea1b30a6444")
 		)
 		(instances
 			(project "NosVolt"
