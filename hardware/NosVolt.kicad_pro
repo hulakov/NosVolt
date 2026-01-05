@@ -189,6 +189,7 @@
       "track_widths": [
         0.0,
         0.15,
+        0.2,
         0.22,
         0.25,
         0.4,
@@ -503,7 +504,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.25,
+        "clearance": 0.2,
         "line_style": 0,
         "name": "PWR",
         "pcb_color": "rgb(255, 12, 14)",
@@ -514,11 +515,12 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.25,
+        "clearance": 0.2,
+        "line_style": 1,
         "name": "Shunt",
         "pcb_color": "rgb(255, 160, 16)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(249, 255, 13)",
         "track_width": 3.0,
         "via_diameter": 1.2,
         "via_drill": 0.6
@@ -556,12 +558,16 @@
         "pattern": "*3V3*"
       },
       {
-        "netclass": "Shunt",
-        "pattern": "/INA226_BAT/VOUT"
+        "netclass": "PWR",
+        "pattern": "*3.3V*"
       },
       {
         "netclass": "PWR",
-        "pattern": "+3.3V"
+        "pattern": "/MP2307/OUT"
+      },
+      {
+        "netclass": "Shunt",
+        "pattern": "+12V_UPS"
       }
     ]
   },
