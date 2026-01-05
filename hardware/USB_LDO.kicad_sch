@@ -2576,7 +2576,7 @@
 		)
 		(uuid "f06d8c95-c25c-4e22-a9f9-92a6cf2563d6")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "USB_5V"
 		(shape output)
 		(at 139.7 69.85 90)
 		(effects
@@ -2609,7 +2609,7 @@
 		)
 		(uuid "8a9afe13-20f3-46d4-bd8d-5e7d6cd14dce")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "USB_5V"
 		(shape output)
 		(at 77.47 138.43 180)
 		(effects
@@ -2620,7 +2620,7 @@
 		)
 		(uuid "979d5145-8c37-402b-90fe-bebdf1b8ffa6")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "USB_3V3"
 		(shape output)
 		(at 149.86 138.43 0)
 		(effects
@@ -2686,11 +2686,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d5eb513-90a4-4104-96b1-1dcc9627fdce")
+			(uuid "dcd7dcf0-3960-45ce-b980-06eb477548da")
 		)
 		(instances
-			(project ""
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+			(project "NosVolt"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "#PWR0403")
 					(unit 1)
 				)
@@ -2753,14 +2753,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "80d9be64-fcfa-4116-83a4-7e58aa2d7cc9")
+			(uuid "2a8fbba9-2a1a-41cb-8807-01fc931e2730")
 		)
 		(pin "2"
-			(uuid "9dfc837f-5650-4586-9d65-b06f7ce2608c")
+			(uuid "dc237a61-dfaf-4ac1-b928-4ee12c3b3d24")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "C405")
 					(unit 1)
 				)
@@ -2829,59 +2829,59 @@
 			)
 		)
 		(pin "S1"
-			(uuid "0769e9b0-875b-4348-9ed8-a7c47d644bb4")
+			(uuid "7c77e8a8-3bdd-4bf9-b681-a303e4f2cdf5")
 		)
 		(pin "B5"
-			(uuid "81db590f-d85b-4599-8215-2fbd222fc541")
+			(uuid "95ac0915-a8da-4b54-9e70-5b7e03cad524")
 		)
 		(pin "A4"
-			(uuid "d938f793-048d-49b2-ac32-44610e9e0496")
+			(uuid "ec180315-a661-49f5-8dd7-c968300173e6")
 		)
 		(pin "B7"
-			(uuid "496a56a7-e94d-4da5-8a20-dbacdb17fe60")
+			(uuid "a415950a-4835-4f5a-85ec-7591c7508aa1")
 		)
 		(pin "A9"
-			(uuid "78dd7b89-e59e-4ad1-924a-022ad6c113aa")
+			(uuid "1ff362bd-6d2d-4978-b445-da993d3f9063")
 		)
 		(pin "B4"
-			(uuid "dba7ced3-5036-4f6a-9b43-ee84578b8077")
+			(uuid "d57626a2-ad9a-405c-9fe4-2dfb734d3a2a")
 		)
 		(pin "A5"
-			(uuid "ace0b8c6-de9e-42a1-aa1c-981045eb7981")
+			(uuid "89b89cf3-1651-4574-a748-6b4ec86cbdcb")
 		)
 		(pin "A7"
-			(uuid "cfda6eea-6280-42d9-a618-f64a537ca27f")
+			(uuid "f4457283-e258-4a6f-8be7-a0396c6a860f")
 		)
 		(pin "A12"
-			(uuid "11dd1fd9-5edc-4a80-a866-edcc46ea970e")
+			(uuid "ba63fc9e-d0c0-4d29-b9d4-3f7ef456c2fb")
 		)
 		(pin "B6"
-			(uuid "62ff8e7d-a430-4319-91a3-60eb97da4d01")
+			(uuid "f8e116ef-bd82-4c6e-b335-c168e9679eea")
 		)
 		(pin "A6"
-			(uuid "718d0cc8-0af6-4018-9a0e-ba11ad048f56")
+			(uuid "ef07f717-04dc-4477-9af5-48e298c9ccbc")
 		)
 		(pin "B8"
-			(uuid "47a96002-3cfa-455d-ad48-6e38c87f5b71")
+			(uuid "a869dbbf-eb8a-4b59-a992-6dbb8c41077c")
 		)
 		(pin "B1"
-			(uuid "c79447d8-5f4c-4a4e-a357-8837fbac2239")
+			(uuid "99eefa30-ed47-4511-9a2c-264f6710a261")
 		)
 		(pin "B12"
-			(uuid "24b36466-7549-4046-bdab-2e356579c02c")
+			(uuid "6a4e2de8-c32f-4444-8205-f07e00c5048f")
 		)
 		(pin "A1"
-			(uuid "577b9ff4-095f-4fd8-8e7b-5aba0a531fc2")
+			(uuid "8607fc1e-2b1b-4569-9960-9d5d1f7709a2")
 		)
 		(pin "B9"
-			(uuid "c3a142d1-d0e8-41fb-b132-c64902942c71")
+			(uuid "8b758e10-813a-4c4c-978d-c91f9295dce9")
 		)
 		(pin "A8"
-			(uuid "9b4d9967-e99d-4187-ac9d-77040c1edeaf")
+			(uuid "79d2dbff-d706-4649-bc82-c6369bb97018")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "J401")
 					(unit 1)
 				)
@@ -2946,26 +2946,26 @@
 			)
 		)
 		(pin "5"
-			(uuid "837a216c-cddf-4ecd-a87e-75aa92cc2fb1")
+			(uuid "4608ca03-066c-4623-9d94-f7d8bfb740a3")
 		)
 		(pin "1"
-			(uuid "7fef5bf2-83e9-44d7-9866-e23f51130be7")
+			(uuid "f95d7dde-760d-4f5b-b981-c08611a37fad")
 		)
 		(pin "3"
-			(uuid "356b336c-1958-4946-833c-3f1adbf9727a")
+			(uuid "a0362c76-dab3-44da-9392-025e7f4a0557")
 		)
 		(pin "4"
-			(uuid "079f8aa9-00be-4266-a583-a7813f668fe8")
+			(uuid "a4d47c19-a652-4e47-9544-b1ec4c7b39af")
 		)
 		(pin "2"
-			(uuid "2f1daa88-ab15-4b03-9979-9ee623f460c1")
+			(uuid "93b56f0f-42b4-4dec-a093-5c39a970b749")
 		)
 		(pin "6"
-			(uuid "f6c1a63e-ee51-4eae-970a-a7f36b2d4e9b")
+			(uuid "57dce315-fd7c-44fd-85cd-7b3fdc44a40c")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "U402")
 					(unit 1)
 				)
@@ -3028,14 +3028,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "98745bbe-deac-4ea9-bd87-e362d4b5b751")
+			(uuid "24843de8-2920-4e19-b292-069bb70c3612")
 		)
 		(pin "2"
-			(uuid "7e44ed40-e37d-4f45-a876-fa1b4a0a5650")
+			(uuid "a2a72013-7746-4d87-9b9b-639f0c9eece7")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "C404")
 					(unit 1)
 				)
@@ -3097,11 +3097,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "273582ba-1431-4875-a6bd-a7782a56d91a")
+			(uuid "2d44eb94-b388-406c-9fe3-e50134f91054")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "#PWR0402")
 					(unit 1)
 				)
@@ -3163,11 +3163,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a6a2a3a-1a31-42e7-bd5c-85bacf797ee8")
+			(uuid "0e02e62c-610c-4635-b1aa-d2c4c17366f6")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "#PWR0405")
 					(unit 1)
 				)
@@ -3228,17 +3228,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "e154262b-045a-4d2c-a353-27993c48efb1")
+			(uuid "3761be6b-1f11-41d0-9f1b-275ec5e5ffae")
 		)
 		(pin "1"
-			(uuid "05f72191-9c5c-4d3c-97ff-be89a403eacf")
+			(uuid "87408fb4-a3e8-4a3f-abb6-d01fd4a2803c")
 		)
 		(pin "3"
-			(uuid "e4b9a8ae-f980-41f9-ae91-6e089555d708")
+			(uuid "f7f7aae1-1ac3-44b7-bb64-d711bc96d1b5")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "U401")
 					(unit 1)
 				)
@@ -3298,14 +3298,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "cfb91506-0eaa-4873-8fba-1b328ed3e197")
+			(uuid "12ce2f0d-f71b-4d26-8cd3-bbc7d7a937cf")
 		)
 		(pin "1"
-			(uuid "e0a16963-2e49-43f9-bd5d-bfdbd8834080")
+			(uuid "105e9424-3ade-49ad-8012-53fcf2f5fc57")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "R402")
 					(unit 1)
 				)
@@ -3367,14 +3367,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "521369e1-ffae-49e9-8d5b-02cf8e24b7e3")
+			(uuid "0db6f3ee-e817-4c2f-b6ba-1af22c93a9b0")
 		)
 		(pin "2"
-			(uuid "5ec4dd86-acba-43d8-9c61-8e953722ac9d")
+			(uuid "70360416-ee54-4c47-b464-40ee53735952")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "C401")
 					(unit 1)
 				)
@@ -3436,11 +3436,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a1bc3e84-5416-4c7d-b4b3-eab99be25105")
+			(uuid "ad8c6d60-6e8c-4818-8ea1-01d7628b7e33")
 		)
 		(instances
-			(project ""
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+			(project "NosVolt"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "#PWR0404")
 					(unit 1)
 				)
@@ -3501,14 +3501,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9577c5f-48ce-4406-b6b3-b3132ec38eb2")
+			(uuid "3e3c710f-e982-4dda-917f-01c7aa601928")
 		)
 		(pin "2"
-			(uuid "460d2f9d-87b3-403b-9818-be08d6334c54")
+			(uuid "b5ec133e-67e8-410a-b715-6c6b4c8944aa")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "F401")
 					(unit 1)
 				)
@@ -3571,14 +3571,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e4bb26a-267d-414f-9133-8eb98403054c")
+			(uuid "08143a1b-2361-459b-bea1-90c5c8b45185")
 		)
 		(pin "2"
-			(uuid "679f3a7c-c130-4631-b57a-cae46e55c53c")
+			(uuid "aa0446b9-7a7f-4d11-b628-d16a8d834b95")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "C403")
 					(unit 1)
 				)
@@ -3641,14 +3641,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "6a9b6370-cce6-4069-8367-ffe5ca124721")
+			(uuid "88497423-669f-4345-849d-23c67747b7cb")
 		)
 		(pin "1"
-			(uuid "110961ae-41a1-4ac2-a4f8-e81bfe010b8a")
+			(uuid "219670c6-b9f5-4d5d-9ec8-d3a23d5fcfd2")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "D401")
 					(unit 1)
 				)
@@ -3710,11 +3710,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "42d15d4d-7c87-42f2-87be-355b61d69665")
+			(uuid "48b27369-0009-429b-abb1-c160dee8e685")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "#PWR0401")
 					(unit 1)
 				)
@@ -3777,14 +3777,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b08e0873-18dd-415a-8b10-f0f5a70c5d91")
+			(uuid "f9002f5a-f58f-4e41-8ff8-932fbb897aca")
 		)
 		(pin "2"
-			(uuid "f58585e7-959f-494a-98ca-1f58d85be2a4")
+			(uuid "03d04e62-7e04-43bf-be29-211163ff41de")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "C402")
 					(unit 1)
 				)
@@ -3844,14 +3844,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "743449f7-1247-4bf0-b35d-04227803fffa")
+			(uuid "7671dec7-6248-475e-a22e-a48677a9fd16")
 		)
 		(pin "1"
-			(uuid "388010d2-c026-4d58-a926-eb8d55ea6c91")
+			(uuid "03d97f6b-0795-4a6b-8d70-24ba73517351")
 		)
 		(instances
 			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/a3c788b2-be52-41e3-a33a-7de63687b368"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2"
 					(reference "R401")
 					(unit 1)
 				)
