@@ -139,7 +139,7 @@
         "min_track_width": 0.127,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.6,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -726,11 +726,11 @@
       "BAT_ADS1115"
     ],
     [
-      "6dfa2fcf-efa0-4760-a174-891011b1c8df",
+      "1233f72c-7dc9-4f06-8172-2594f9c9c2eb",
       "MP2307"
     ],
     [
-      "f9001ea6-7fd9-45f8-b2c2-99ce1a63a0f2",
+      "436ee9b6-ef56-4c7d-8ebb-fea0d8367012",
       "USB_LDO"
     ],
     [
