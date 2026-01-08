@@ -50,3 +50,5 @@ backup/
 _autosave-*
 /hardware/NosVolt-backups/
 /hardware/fp-info-cache
+/hardware/production/
+/hardware/\#auto_saved_files\#

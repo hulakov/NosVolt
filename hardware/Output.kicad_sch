@@ -1157,22 +1157,10 @@
 		(uuid "0bfaba13-9020-4d4e-a00a-b56f5a1b2363")
 	)
 	(junction
-		(at 95.25 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "161c28f7-8635-4fa5-b7d6-8c08c2a659fb")
-	)
-	(junction
 		(at 119.38 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68d1e2ce-e23b-48c1-a744-a8f752be9b42")
-	)
-	(junction
-		(at 95.25 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d53334b-5ddf-4497-b980-def886b982c9")
 	)
 	(junction
 		(at 66.04 104.14)
@@ -1284,7 +1272,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 90.17) (xy 101.6 90.17)
+			(xy 90.17 90.17) (xy 101.6 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1394,43 +1382,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 74.93) (xy 106.68 74.93)
+			(xy 77.47 74.93) (xy 106.68 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b4184f66-c9f6-4f09-9928-16216e20415b")
-	)
-	(wire
-		(pts
-			(xy 95.25 78.74) (xy 95.25 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b93140d4-6fc2-4da8-a20c-98c08308f62a")
-	)
-	(wire
-		(pts
-			(xy 90.17 90.17) (xy 95.25 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cde97998-7135-43b5-9e35-18a4d494157b")
-	)
-	(wire
-		(pts
-			(xy 95.25 86.36) (xy 95.25 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9b3a85f-ebb3-4264-a707-dc70a2e41452")
 	)
 	(wire
 		(pts
@@ -1472,15 +1430,35 @@
 		)
 		(uuid "f774786c-d516-436c-aa5b-b7cb86760ea1")
 	)
-	(wire
-		(pts
-			(xy 77.47 74.93) (xy 95.25 74.93)
+	(label "SHUNT_DRAIN"
+		(at 125.73 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "5903c7e0-47f3-417c-9a1a-e4da1bd80f6c")
+	)
+	(label "SHUNT"
+		(at 77.47 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(uuid "f8583bfc-c843-4879-b1c0-3911e5623bb8")
+		(uuid "785927f9-fb6e-4a2a-babb-3af5f4c60363")
+	)
+	(label "SHUNT_SOURCE"
+		(at 59.69 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f3946c7-750b-4257-8208-6e7c77e05686")
 	)
 	(hierarchical_label "VOUT"
 		(shape output)
@@ -2031,7 +2009,7 @@
 		(dnp no)
 		(uuid "a99340c7-1319-4ee1-bae5-5761abd46d76")
 		(property "Reference" "R803"
-			(at 71.628 81.28 0)
+			(at 69.342 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5ef124d-c08e-48d9-b281-8e7f573ff532")
-		(property "Reference" "C803"
+		(property "Reference" "C802"
 			(at 123.19 106.6799 0)
 			(effects
 				(font
@@ -2237,15 +2215,15 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "C1103")
+					(reference "C1102")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "C803")
+					(reference "C802")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "C903")
+					(reference "C902")
 					(unit 1)
 				)
 			)
@@ -2418,7 +2396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9c166f6-e723-4a56-a385-5fa3d34be3a5")
-		(property "Reference" "C802"
+		(property "Reference" "C801"
 			(at 97.79 106.68 0)
 			(effects
 				(font
@@ -2468,81 +2446,6 @@
 		)
 		(pin "2"
 			(uuid "c0998271-1d5c-4478-a4d5-8d323b0a80ae")
-		)
-		(instances
-			(project "NosVolt"
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "C1102")
-					(unit 1)
-				)
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "C802")
-					(unit 1)
-				)
-				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "C902")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 95.25 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec54cf3d-2f64-49e6-a2c8-267d76737383")
-		(property "Reference" "C801"
-			(at 89.408 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22nF"
-			(at 91.44 82.804 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 94.2848 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 95.25 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02392100-7d50-4691-bef8-f8beb980ca4f")
-		)
-		(pin "2"
-			(uuid "3c7aca54-73a0-41fa-a014-1d0e062df8dc")
 		)
 		(instances
 			(project "NosVolt"
