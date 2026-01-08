@@ -4144,6 +4144,16 @@
 		)
 		(uuid "ff09bdda-195c-40ec-a8a7-f62763386da9")
 	)
+	(label "SHUNT_OUT_LO2"
+		(at 138.43 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15cdcd46-0916-4cab-9a2f-3c77dea75bbb")
+	)
 	(label "SHUNT_BAT_LO"
 		(at 31.75 140.97 0)
 		(effects
@@ -4184,6 +4194,16 @@
 		)
 		(uuid "5e5fdad9-6dfd-4981-8c83-7530106ce1c8")
 	)
+	(label "SHUNT_OUT_LO1"
+		(at 154.94 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94271dd8-4284-4d83-a613-ec7808f3560b")
+	)
 	(label "SHUNT_IN_LO"
 		(at 33.02 167.64 0)
 		(effects
@@ -4203,6 +4223,16 @@
 			(justify right bottom)
 		)
 		(uuid "9f0c5df3-f8fa-436e-804a-b22df2cfbfca")
+	)
+	(label "SHUNT_OUT_LO3"
+		(at 152.4 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb9eda19-2efd-4b1e-bd73-13ad081fe93c")
 	)
 	(label "SHUNT_IN_HI"
 		(at 33.02 170.18 0)
@@ -4456,6 +4486,28 @@
 			)
 		)
 	)
+	(global_label "EN_OUT3"
+		(shape input)
+		(at 269.24 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a0e5cb7-428a-43ec-ab93-6b404525a517")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.5104 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 269.24 33.02 0)
@@ -4540,28 +4592,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EN_OUT1"
-		(shape input)
-		(at 269.24 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9fe11842-9426-4af2-aeb2-1f5fff647154")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.5104 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4720,7 +4750,7 @@
 			)
 		)
 	)
-	(global_label "EN_OUT3"
+	(global_label "EN_OUT1"
 		(shape input)
 		(at 269.24 50.8 0)
 		(fields_autoplaced yes)
@@ -4730,7 +4760,7 @@
 			)
 			(justify left)
 		)
-		(uuid "dba8b552-d262-4518-ba24-215591c59e6a")
+		(uuid "e68792ca-73e7-45b7-9c1e-cf06a8b0d281")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.5104 50.8 0)
 			(effects
