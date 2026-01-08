@@ -1672,7 +1672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "013df395-c46b-473b-af83-2b6df3fbac0e")
-		(property "Reference" "#PWR0803"
+		(property "Reference" "#PWR0503"
 			(at 106.68 121.92 0)
 			(effects
 				(font
@@ -1722,15 +1722,15 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "#PWR01103")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "#PWR0803")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "#PWR0903")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -1746,7 +1746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37527475-955d-4bab-96ce-2502ce756b4a")
-		(property "Reference" "#PWR0801"
+		(property "Reference" "#PWR0501"
 			(at 66.04 121.92 0)
 			(effects
 				(font
@@ -1796,15 +1796,15 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "#PWR01101")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "#PWR0801")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "#PWR0901")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -1820,7 +1820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39a9ce27-12b4-4b19-844c-7ea441ae6a7d")
-		(property "Reference" "NT801"
+		(property "Reference" "NT501"
 			(at 78.74 71.1199 90)
 			(effects
 				(font
@@ -1874,15 +1874,15 @@
 		(instances
 			(project ""
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "NT1101")
+					(reference "NT501")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "NT801")
+					(reference "NT701")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "NT901")
+					(reference "NT601")
 					(unit 1)
 				)
 			)
@@ -1898,7 +1898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51eb74e9-2062-4574-8713-d01ce4a1a541")
-		(property "Reference" "R802"
+		(property "Reference" "R502"
 			(at 68.58 109.2199 0)
 			(effects
 				(font
@@ -1952,15 +1952,15 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "R1102")
+					(reference "R502")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "R802")
+					(reference "R702")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "R902")
+					(reference "R602")
 					(unit 1)
 				)
 			)
@@ -1976,7 +1976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55b91464-0854-49f1-9e4c-534a57e03a74")
-		(property "Reference" "Q802"
+		(property "Reference" "Q502"
 			(at 110.49 91.4399 0)
 			(effects
 				(font
@@ -2049,15 +2049,15 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "Q1102")
+					(reference "Q502")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "Q802")
+					(reference "Q702")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "Q902")
+					(reference "Q602")
 					(unit 1)
 				)
 			)
@@ -2073,7 +2073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e55ee5e-d51a-4a69-b1f3-4eaf4ee82969")
-		(property "Reference" "#PWR0802"
+		(property "Reference" "#PWR0502"
 			(at 77.47 121.92 0)
 			(effects
 				(font
@@ -2123,15 +2123,15 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "#PWR01102")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "#PWR0802")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "#PWR0902")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -2147,7 +2147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ab06f0e-8167-4d3a-ad4f-8d79211fe602")
-		(property "Reference" "R801"
+		(property "Reference" "R501"
 			(at 59.69 97.79 90)
 			(effects
 				(font
@@ -2199,15 +2199,15 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "R1101")
+					(reference "R501")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "R801")
+					(reference "R701")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "R901")
+					(reference "R601")
 					(unit 1)
 				)
 			)
@@ -2222,7 +2222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a99340c7-1319-4ee1-bae5-5761abd46d76")
-		(property "Reference" "R803"
+		(property "Reference" "R503"
 			(at 69.342 81.28 0)
 			(effects
 				(font
@@ -2276,15 +2276,15 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "R1103")
+					(reference "R503")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "R803")
+					(reference "R703")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "R903")
+					(reference "R603")
 					(unit 1)
 				)
 			)
@@ -2299,7 +2299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9b20316-c598-485c-b6a2-bf576fa0a862")
-		(property "Reference" "R804"
+		(property "Reference" "R505"
 			(at 86.36 92.964 90)
 			(effects
 				(font
@@ -2351,15 +2351,15 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "R1104")
+					(reference "R505")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "R804")
+					(reference "R705")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "R904")
+					(reference "R605")
 					(unit 1)
 				)
 			)
@@ -2375,7 +2375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5ef124d-c08e-48d9-b281-8e7f573ff532")
-		(property "Reference" "C802"
+		(property "Reference" "C503"
 			(at 123.19 106.6799 0)
 			(effects
 				(font
@@ -2429,15 +2429,15 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "C1102")
+					(reference "C503")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "C802")
+					(reference "C703")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "C902")
+					(reference "C603")
 					(unit 1)
 				)
 			)
@@ -2453,7 +2453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b80088db-2e65-4d06-a2bc-19aa9aa7b54c")
-		(property "Reference" "#PWR0804"
+		(property "Reference" "#PWR0504"
 			(at 119.38 121.92 0)
 			(effects
 				(font
@@ -2503,15 +2503,15 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "#PWR01104")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "#PWR0804")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "#PWR0904")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
@@ -2527,7 +2527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd92b41b-4d1d-4093-98d9-b167b0e4686d")
-		(property "Reference" "Q801"
+		(property "Reference" "Q501"
 			(at 81.28 102.8699 0)
 			(effects
 				(font
@@ -2587,15 +2587,15 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "Q1101")
+					(reference "Q501")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "Q801")
+					(reference "Q701")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "Q901")
+					(reference "Q601")
 					(unit 1)
 				)
 			)
@@ -2610,7 +2610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9c166f6-e723-4a56-a385-5fa3d34be3a5")
-		(property "Reference" "C801"
+		(property "Reference" "C501"
 			(at 97.79 106.68 0)
 			(effects
 				(font
@@ -2664,15 +2664,15 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(reference "C1101")
+					(reference "C501")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(reference "C801")
+					(reference "C701")
 					(unit 1)
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(reference "C901")
+					(reference "C601")
 					(unit 1)
 				)
 			)
@@ -2765,13 +2765,13 @@
 		(instances
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/865d6fe0-7870-4134-be7f-c35221518457"
-					(page "5")
+					(page "7")
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/b3941ffe-e8e1-48f3-a016-360d76a87258"
-					(page "10")
+					(page "6")
 				)
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/56c5dda2-1e55-4d6c-a70d-c1acd647cefd"
-					(page "12")
+					(page "5")
 				)
 			)
 		)
