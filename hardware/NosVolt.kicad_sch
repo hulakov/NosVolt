@@ -866,6 +866,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F101"
+				(at 3.81 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fuse"
+				(at 3.81 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "NosLib:FUSE_3544-2"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_0"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(hide yes)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(hide yes)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -4062,13 +4240,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 71.12) (xy 96.52 71.12)
+			(xy 95.25 66.04) (xy 96.52 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "00ea98fd-c2ca-4cbd-901c-150c10b77128")
+	)
+	(wire
+		(pts
+			(xy 106.68 66.04) (xy 104.14 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f16ac9-ec74-466d-8f59-f6633793db02")
 	)
 	(wire
 		(pts
@@ -4142,7 +4330,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 71.12) (xy 85.09 76.2)
+			(xy 85.09 66.04) (xy 85.09 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4259,6 +4447,16 @@
 			(type default)
 		)
 		(uuid "16c17f95-cba0-468c-8cdd-b29ae3f62861")
+	)
+	(wire
+		(pts
+			(xy 106.68 66.04) (xy 106.68 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1827d8da-8bf4-4183-a4e0-44bafb732c45")
 	)
 	(wire
 		(pts
@@ -5452,7 +5650,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 71.12) (xy 85.09 71.12)
+			(xy 87.63 66.04) (xy 85.09 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7602,16 +7800,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 71.12 90)
+		(at 100.33 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2f0f131e-f8e4-4518-b7db-4dc40c0a102c")
 		(property "Reference" "R106"
-			(at 91.44 64.77 90)
+			(at 100.584 68.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,7 +7816,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 91.44 67.31 90)
+			(at 100.584 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +7824,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 91.44 72.898 90)
+			(at 100.33 67.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +7833,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 71.12 0)
+			(at 100.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +7842,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 91.44 71.12 0)
+			(at 100.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8554,7 +8751,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 100.33 71.12 180)
+		(at 91.44 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8562,7 +8759,7 @@
 		(dnp no)
 		(uuid "5f4311d2-f7f2-418b-a25b-5e3cf5e7cba4")
 		(property "Reference" "D101"
-			(at 100.584 64.516 0)
+			(at 91.694 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8767,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 100.584 67.056 0)
+			(at 91.694 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8578,7 +8775,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 100.33 71.12 0)
+			(at 91.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8587,7 +8784,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 71.12 0)
+			(at 91.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,7 +8793,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 100.33 71.12 0)
+			(at 91.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8605,7 +8802,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 71.12 0)
+			(at 91.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,7 +8817,7 @@
 			(uuid "1637ad5c-c2eb-40ef-b8e3-0a02dc84b700")
 		)
 		(instances
-			(project ""
+			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444"
 					(reference "D101")
 					(unit 1)
@@ -8895,6 +9092,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at -16.51 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71391e5f-ee9a-4d86-923a-041669521239")
+		(property "Reference" "F101"
+			(at -12.7 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fuse"
+			(at -12.7 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NosLib:FUSE_3544-2"
+			(at -18.288 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -16.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at -16.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "b22d0de4-eb63-4a5f-bc8b-9be159e14ca3")
+		)
+		(pin "1_2"
+			(uuid "b0a44c28-59a6-4d08-a237-f92bdb237850")
+		)
+		(pin "2_2"
+			(uuid "3d89a035-f46c-41f6-b976-42bb4ef64a64")
+		)
+		(pin "1_1"
+			(uuid "61fb804f-2fe9-450d-90c1-a6b778f3331f")
+		)
+		(instances
+			(project ""
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444"
+					(reference "F101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
 		(at 173.99 143.51 0)
 		(mirror y)
@@ -8963,6 +9236,72 @@
 			(project "NosVolt"
 				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444"
 					(reference "J103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a340ee6-f8a7-4939-8f64-bed68dd538ff")
+		(property "Reference" "#PWR0123"
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc3f7a8a-8b64-4e86-900d-297d50685065")
+		)
+		(instances
+			(project "NosVolt"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
