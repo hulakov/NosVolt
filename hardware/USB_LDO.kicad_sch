@@ -1949,12 +1949,119 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 139.7 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "041ec339-5bab-4022-bf2d-dc41a31a7c31")
+	)
+	(junction
+		(at 133.35 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23682470-cf9d-4b93-8c2f-7250901f069b")
 	)
 	(junction
 		(at 139.7 78.74)
@@ -2288,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 78.74) (xy 125.73 78.74)
+			(xy 139.7 78.74) (xy 133.35 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2305,6 +2412,16 @@
 			(type default)
 		)
 		(uuid "79d45dc6-7b5b-4200-a56f-d12d4aa47b1c")
+	)
+	(wire
+		(pts
+			(xy 133.35 78.74) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1d0278-fd87-4063-b580-fbfaddfc32e9")
 	)
 	(wire
 		(pts
@@ -2325,6 +2442,16 @@
 			(type default)
 		)
 		(uuid "8e9240a6-92f6-48dc-b693-ea9a0be7671a")
+	)
+	(wire
+		(pts
+			(xy 90.17 124.46) (xy 96.52 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f85b6ec-e467-4c74-9bbb-2a4950f8b7f5")
 	)
 	(wire
 		(pts
@@ -2368,7 +2495,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 101.6) (xy 144.78 101.6)
+			(xy 96.52 124.46) (xy 96.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9409574-3b94-464b-b6f0-42309530fa8d")
+	)
+	(wire
+		(pts
+			(xy 166.37 101.6) (xy 144.78 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2438,6 +2575,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a71ed6-0fee-4352-9517-1e981c550a30")
+	)
+	(wire
+		(pts
 			(xy 115.57 151.13) (xy 115.57 154.94)
 		)
 		(stroke
@@ -2455,16 +2602,6 @@
 			(type default)
 		)
 		(uuid "d2c61935-2413-4bd4-b069-eca771297992")
-	)
-	(wire
-		(pts
-			(xy 153.67 104.14) (xy 144.78 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d374fe06-ef88-486c-ac2c-d50f5ab88a66")
 	)
 	(wire
 		(pts
@@ -2526,16 +2663,6 @@
 		)
 		(uuid "fdaf7557-ad01-4497-8b9d-b8642e945afc")
 	)
-	(label "USB_D-"
-		(at 146.05 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "20bc242a-b2b6-4004-a7ca-41110d40a7cc")
-	)
 	(label "RAW_5V"
 		(at 105.41 78.74 0)
 		(effects
@@ -2566,16 +2693,6 @@
 		)
 		(uuid "e6ca67b1-f5d0-425d-90e8-4c6d4daabd6f")
 	)
-	(label "USB_D+"
-		(at 146.05 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f06d8c95-c25c-4e22-a9f9-92a6cf2563d6")
-	)
 	(hierarchical_label "USB_5V"
 		(shape output)
 		(at 139.7 69.85 90)
@@ -2589,7 +2706,7 @@
 	)
 	(hierarchical_label "DP"
 		(shape bidirectional)
-		(at 153.67 104.14 0)
+		(at 166.37 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2600,7 +2717,7 @@
 	)
 	(hierarchical_label "DM"
 		(shape bidirectional)
-		(at 153.67 101.6 0)
+		(at 166.37 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2768,6 +2885,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 96.52 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "294a1447-1d52-459b-ace0-7b172fc73066")
+		(property "Reference" "#FLG0802"
+			(at 96.52 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 96.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 96.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6845338-6bf0-4192-ab13-4c549f1218ff")
+		)
+		(instances
+			(project "NosVolt"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/e82b3fa3-70c5-4043-a1cf-3e899c33675e"
+					(reference "#FLG0802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 133.35 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c067df5-a28d-4925-91d5-74f10cadd21f")
+		(property "Reference" "#FLG0801"
+			(at 133.35 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 133.35 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de2992d1-0dfc-4d6c-9892-c41ec9433560")
+		)
+		(instances
+			(project "NosVolt"
+				(path "/2a3ef4c2-927a-45cd-a4f2-5ee83a7e9444/e82b3fa3-70c5-4043-a1cf-3e899c33675e"
+					(reference "#FLG0801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 90.17 93.98 0)
 		(unit 1)
@@ -2811,15 +3060,6 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ".\\"
 			(at 90.17 93.98 0)
 			(effects
 				(font
@@ -3209,7 +3449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://AP7361.PDF"
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
 			(at 118.11 144.78 0)
 			(effects
 				(font
@@ -3218,7 +3458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "The AP7361 is a 1A, adjustable and fixed output voltage, ultra-low dropout linear regulator with enable"
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
 			(at 115.57 138.43 0)
 			(effects
 				(font
@@ -3622,7 +3862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://SMBJ50.PDF"
+		(property "Datasheet" "~"
 			(at 125.73 85.09 0)
 			(effects
 				(font
@@ -3631,7 +3871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Transient voltage suppressor"
+		(property "Description" "Zener diode"
 			(at 125.73 85.09 0)
 			(effects
 				(font

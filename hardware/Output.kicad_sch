@@ -869,6 +869,7 @@
 		(symbol "Transistor_FET:2N7002"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1575,26 +1576,6 @@
 			(justify left bottom)
 		)
 		(uuid "5903c7e0-47f3-417c-9a1a-e4da1bd80f6c")
-	)
-	(label "SHUNT"
-		(at 77.47 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "785927f9-fb6e-4a2a-babb-3af5f4c60363")
-	)
-	(label "SHUNT_SOURCE"
-		(at 59.69 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f3946c7-750b-4257-8208-6e7c77e05686")
 	)
 	(hierarchical_label "VOUT"
 		(shape output)
